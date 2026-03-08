@@ -1,0 +1,95 @@
+# 每行一个映射：<GitHub目录URL> => <本地目录>
+# 示例：
+# https://github.com/owner/repo/tree/main/path/to/dir => local-dir
+# 注意：sync-skills.py 默认会把这些目录同步到 ./skills/<本地目录>
+
+https://github.com/anthropics/skills/tree/main/skills/canvas-design => canvas-design
+https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring => doc-coauthoring
+https://github.com/anthropics/skills/tree/main/skills/docx => docx
+https://github.com/anthropics/skills/tree/main/skills/pptx => pptx
+https://github.com/anthropics/skills/tree/main/skills/xlsx => xlsx
+https://github.com/anthropics/skills/tree/main/skills/pdf => pdf
+
+https://github.com/openai/skills/tree/main/skills/.curated/screenshot => screenshot
+
+https://github.com/antvis/chart-visualization-skills/tree/master/skills/icon-retrieval => icon-retrieval
+
+https://github.com/MicrosoftDocs/mcp/tree/main/skills/microsoft-docs => microsoft-docs
+https://github.com/MicrosoftDocs/mcp/tree/main/skills/microsoft-code-reference => microsoft-code-reference
+
+https://github.com/openclaw/openclaw/tree/main/skills/apple-notes => apple-notes
+
+https://github.com/kepano/obsidian-skills/tree/main/skills/obsidian-cli => obsidian-cli
+https://github.com/kepano/obsidian-skills/tree/main/skills/obsidian-markdown => obsidian-markdown
+https://github.com/kepano/obsidian-skills/tree/main/skills/obsidian-bases => obsidian-bases
+
+https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns => vercel-composition-patterns
+https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices => vercel-react-best-practices
+https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills => vercel-react-native-skills
+
+https://github.com/callstackincubator/agent-skills/tree/main/skills/react-native-best-practices => react-native-best-practices
+
+https://github.com/vuejs-ai/skills/tree/main/skills/vue-best-practices => vue-best-practices
+https://github.com/vuejs-ai/skills/tree/main/skills/vue-testing-best-practices => vue-testing-best-practices
+https://github.com/vuejs-ai/skills/tree/main/skills/vue-router-best-practices => vue-router-best-practices
+https://github.com/vuejs-ai/skills/tree/main/skills/vue-pinia-best-practices => vue-pinia-best-practices
+https://github.com/vuejs-ai/skills/tree/main/skills/vue-options-api-best-practices => vue-options-api-best-practices
+https://github.com/vuejs-ai/skills/tree/main/skills/vue-jsx-best-practices => vue-jsx-best-practices
+https://github.com/vuejs-ai/skills/tree/main/skills/vue-debug-guides => vue-debug-guides
+https://github.com/vuejs-ai/skills/tree/main/skills/create-adaptable-composable => create-adaptable-composable
+
+https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-compress-image => baoyu-compress-image
+https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-article-illustrator => baoyu-article-illustrator
+
+https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo => ai-seo
+https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative => ad-creative
+https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy => content-strategy
+https://github.com/coreyhaines31/marketingskills/tree/main/skills/paid-ads => paid-ads
+https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-ideas => marketing-ideas
+https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing-strategy => pricing-strategy
+https://github.com/coreyhaines31/marketingskills/tree/main/skills/popup-cro => popup-cro
+https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology => marketing-psychology
+https://github.com/coreyhaines31/marketingskills/tree/main/skills/referral-program => referral-program
+https://github.com/coreyhaines31/marketingskills/tree/main/skills/site-architecture => site-architecture
+
+https://github.com/ComposioHQ/awesome-claude-skills/tree/master/domain-name-brainstormer => domain-name-brainstormer
+
+https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/product-name => product-name
+https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/opportunity-solution-tree => opportunity-solution-tree
+https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/business-model => business-model
+https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/porters-five-forces => porters-five-forces
+https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/swot-analysis => swot-analysis
+https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/customer-journey-map => customer-journey-map
+https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/create-prd => create-prd
+
+https://github.com/bytedance/deer-flow/tree/main/skills/public/consulting-analysis => consulting-analysis
+https://github.com/bytedance/deer-flow/tree/main/skills/public/data-analysis => data-analysis
+https://github.com/bytedance/deer-flow/tree/main/skills/public/deep-research => deep-research
+https://github.com/bytedance/deer-flow/tree/main/skills/public/surprise-me => surprise-me
+
+https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/markitdown => markitdown
+https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/markdown-mermaid-writing => markdown-mermaid-writing
+https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/consciousness-council => consciousness-council
+https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/dhdna-profiler => dhdna-profiler
+https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/what-if-oracle => what-if-oracle
+https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/scientific-brainstorming => scientific-brainstorming
+
+https://github.com/obra/superpowers/tree/main/skills/systematic-debugging => systematic-debugging
+https://github.com/obra/superpowers/tree/main/skills/test-driven-development => test-driven-development
+https://github.com/obra/superpowers/tree/main/skills/verification-before-completion => verification-before-completion
+
+https://github.com/microsoft/skills/tree/main/.github/skills/frontend-design-review => frontend-design-review
+https://github.com/microsoft/skills/tree/main/.github/plugins/deep-wiki/skills/wiki-researcher => wiki-researcher
+https://github.com/microsoft/skills/tree/main/.github/plugins/deep-wiki/skills/wiki-architect => wiki-architect
+
+https://github.com/new-silvermoon/awesome-android-agent-skills/tree/main/.github/skills/android-accessibility => android-accessibility
+https://github.com/new-silvermoon/awesome-android-agent-skills/tree/main/.github/skills/android-architecture => android-architecture
+https://github.com/new-silvermoon/awesome-android-agent-skills/tree/main/.github/skills/android-coroutines => android-coroutines
+https://github.com/new-silvermoon/awesome-android-agent-skills/tree/main/.github/skills/android-emulator-skill => android-emulator-skill
+https://github.com/new-silvermoon/awesome-android-agent-skills/tree/main/.github/skills/android-testing => android-testing
+https://github.com/new-silvermoon/awesome-android-agent-skills/tree/main/.github/skills/gradle-build-performance => gradle-build-performance
+
+https://github.com/alirezarezvani/claude-code-aso-skill/tree/main/.claude/skills/aso => app-store-optimization
+
+
+
