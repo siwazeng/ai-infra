@@ -118,6 +118,8 @@ Full template: [references/workflow.md](references/workflow.md#step-4-generate-o
 
 ⛔ **BLOCKING: Prompt files MUST be saved before ANY image generation.**
 
+**Execution strategy**: When multiple illustrations have saved prompt files and the task is now plain generation, prefer `baoyu-image-gen` batch mode (`build-batch.ts` → `--batchfile`) over spawning subagents. Use subagents only when each image still needs separate prompt iteration or creative exploration.
+
 1. For each illustration, create a prompt file per [references/prompt-construction.md](references/prompt-construction.md)
 2. Save to `prompts/NN-{type}-{slug}.md` with YAML frontmatter
 3. Prompts **MUST** use type-specific templates with structured sections (ZONES / LABELS / COLORS / STYLE / ASPECT)

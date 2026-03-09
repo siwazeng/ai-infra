@@ -100,7 +100,31 @@ https://github.com/new-silvermoon/awesome-android-agent-skills/tree/main/.github
 
 https://github.com/alirezarezvani/claude-code-aso-skill/tree/main/.claude/skills/aso => app-store-optimization
 
-
 https://github.com/smnandre/symfony-ux-skills/tree/main/skills/symfony-ux => symfony-ux
 
 https://github.com/microsoft/vscode/tree/main/.github/skills/author-contributions => author-contributions
+
+https://github.com/github/awesome-copilot/tree/main/skills/debian-linux-triage => debian-linux-triage
+https://github.com/github/awesome-copilot/tree/main/skills/centos-linux-triage => centos-linux-triage
+https://github.com/github/awesome-copilot/tree/main/skills/arch-linux-triage => arch-linux-triage
+https://github.com/github/awesome-copilot/tree/main/skills/ai-prompt-engineering-safety-review => ai-prompt-engineering-safety-review
+https://github.com/github/awesome-copilot/tree/main/skills/apple-appstore-reviewer => apple-appstore-reviewer
+https://github.com/github/awesome-copilot/tree/main/skills/architecture-blueprint-generator => architecture-blueprint-generator
+https://github.com/github/awesome-copilot/tree/main/skills/boost-prompt => boost-prompt
+https://github.com/github/awesome-copilot/tree/main/skills/chrome-devtools => chrome-devtools
+https://github.com/github/awesome-copilot/tree/main/skills/context-map => context-map
+https://github.com/github/awesome-copilot/tree/main/skills/create-specification => create-specification
+https://github.com/github/awesome-copilot/tree/main/skills/create-oo-component-documentation => create-oo-component-documentation
+https://github.com/github/awesome-copilot/tree/main/skills/create-implementation-plan => create-implementation-plan
+https://github.com/github/awesome-copilot/tree/main/skills/java-junit => java-junit
+https://github.com/github/awesome-copilot/tree/main/skills/javascript-typescript-jest => javascript-typescript-jest
+https://github.com/github/awesome-copilot/tree/main/skills/meeting-minutes => meeting-minutes
+https://github.com/github/awesome-copilot/tree/main/skills/plantuml-ascii => plantuml-ascii
+https://github.com/github/awesome-copilot/tree/main/skills/postgresql-code-review => postgresql-code-review
+https://github.com/github/awesome-copilot/tree/main/skills/postgresql-optimization => postgresql-optimization
+https://github.com/github/awesome-copilot/tree/main/skills/pytest-coverage => pytest-coverage
+https://github.com/github/awesome-copilot/tree/main/skills/readme-blueprint-generator => readme-blueprint-generator
+https://github.com/github/awesome-copilot/tree/main/skills/sql-code-review => sql-code-review
+https://github.com/github/awesome-copilot/tree/main/skills/sql-optimization => sql-optimization
+https://github.com/github/awesome-copilot/tree/main/skills/update-markdown-file-index => update-markdown-file-index
+https://github.com/github/awesome-copilot/tree/main/skills/webapp-testing => webapp-testing
