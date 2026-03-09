@@ -236,6 +236,38 @@ STYLE: [style characteristics]
 ASPECT: 16:9
 ```
 
+### Screen-Print Style Override
+
+When `style: screen-print`, replace standard style instructions with:
+
+```
+Screen print / silkscreen poster art. Flat color blocks, NO gradients.
+COLORS: 2-5 colors maximum. [Choose from style palette or duotone pair]
+TEXTURE: Halftone dot patterns, slight color layer misregistration, paper grain
+COMPOSITION: Bold silhouettes, geometric framing, negative space as storytelling element
+FIGURES: Silhouettes only, no detailed faces, stencil-cut edges
+TYPOGRAPHY: Bold condensed sans-serif integrated into composition (not overlaid)
+```
+
+**Scene + screen-print**:
+```
+Conceptual poster scene. Single symbolic focal point, NOT literal illustration.
+COLORS: Duotone pair (e.g., Burnt Orange #E8751A + Deep Teal #0A6E6E) on Off-Black #121212
+COMPOSITION: Centered silhouette or geometric frame, 60%+ negative space
+TEXTURE: Halftone dots, paper grain, slight print misregistration
+```
+
+**Comparison + screen-print**:
+```
+Split poster composition. Each side dominated by one color from duotone pair.
+LEFT: [Color A] side with silhouette/icon for [Option A]
+RIGHT: [Color B] side with silhouette/icon for [Option B]
+DIVIDER: Geometric shape or negative space boundary
+TEXTURE: Halftone transitions between sides
+```
+
+---
+
 ## What to Avoid
 
 - Vague descriptions ("a nice image")

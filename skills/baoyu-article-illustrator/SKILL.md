@@ -1,6 +1,10 @@
 ---
 name: baoyu-article-illustrator
 description: Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style two-dimension approach. Use when user asks to "illustrate article", "add images", "generate images for article", or "为文章配图".
+version: 1.56.1
+metadata:
+  openclaw:
+    homepage: https://github.com/JimLiu/baoyu-skills#baoyu-article-illustrator
 ---
 
 # Article Illustrator
@@ -15,6 +19,8 @@ Analyze articles, identify illustration positions, generate images with Type × 
 | **Style** | Visual aesthetics | notion, warm, minimal, blueprint, watercolor, elegant |
 
 Combine freely: `--type infographic --style blueprint`
+
+Or use presets: `--preset tech-explainer` → type + style in one flag. See [Style Presets](references/style-presets.md).
 
 ## Types
 
@@ -49,12 +55,15 @@ See [references/styles.md](references/styles.md) for Core Styles, full gallery, 
 ```bash
 # macOS, Linux, WSL, Git Bash
 test -f .baoyu-skills/baoyu-article-illustrator/EXTEND.md && echo "project"
+test -f "${XDG_CONFIG_HOME:-$HOME/.config}/baoyu-skills/baoyu-article-illustrator/EXTEND.md" && echo "xdg"
 test -f "$HOME/.baoyu-skills/baoyu-article-illustrator/EXTEND.md" && echo "user"
 ```
 
 ```powershell
 # PowerShell (Windows)
 if (Test-Path .baoyu-skills/baoyu-article-illustrator/EXTEND.md) { "project" }
+$xdg = if ($env:XDG_CONFIG_HOME) { $env:XDG_CONFIG_HOME } else { "$HOME/.config" }
+if (Test-Path "$xdg/baoyu-skills/baoyu-article-illustrator/EXTEND.md") { "xdg" }
 if (Test-Path "$HOME/.baoyu-skills/baoyu-article-illustrator/EXTEND.md") { "user" }
 ```
 
@@ -80,13 +89,13 @@ Full procedures: [references/workflow.md](references/workflow.md#step-2-setup--a
 
 ### Step 3: Confirm Settings ⚠️
 
-**ONE AskUserQuestion, max 4 Qs. Q1-Q3 REQUIRED.**
+**ONE AskUserQuestion, max 4 Qs. Q1-Q2 REQUIRED. Q3 required unless preset chosen.**
 
 | Q | Options |
 |---|---------|
-| **Q1: Type** | [Recommended], infographic, scene, flowchart, comparison, framework, timeline, mixed |
+| **Q1: Preset or Type** | [Recommended preset], [alt preset], or manual: infographic, scene, flowchart, comparison, framework, timeline, mixed |
 | **Q2: Density** | minimal (1-2), balanced (3-5), per-section (Recommended), rich (6+) |
-| **Q3: Style** | [Recommended], minimal-flat, sci-fi, hand-drawn, editorial, scene, Other |
+| **Q3: Style** | [Recommended], minimal-flat, sci-fi, hand-drawn, editorial, scene, poster, Other — **skip if preset chosen** |
 | Q4: Language | When article language ≠ EXTEND.md setting |
 
 Full procedures: [references/workflow.md](references/workflow.md#step-3-confirm-settings-)
@@ -158,5 +167,6 @@ illustrations/{topic-slug}/
 | [references/workflow.md](references/workflow.md) | Detailed procedures |
 | [references/usage.md](references/usage.md) | Command syntax |
 | [references/styles.md](references/styles.md) | Style gallery |
+| [references/style-presets.md](references/style-presets.md) | Preset shortcuts (type + style) |
 | [references/prompt-construction.md](references/prompt-construction.md) | Prompt templates |
 | [references/config/first-time-setup.md](references/config/first-time-setup.md) | First-time setup |

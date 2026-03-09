@@ -29,6 +29,7 @@
 |--------|-------------|
 | `--type <name>` | Illustration type (see Type Gallery in SKILL.md) |
 | `--style <name>` | Visual style (see references/styles.md) |
+| `--preset <name>` | Shorthand for type + style combo (see [references/style-presets.md](references/style-presets.md)) |
 | `--density <level>` | Image count: minimal / balanced / rich |
 
 ## Input Modes
@@ -55,12 +56,27 @@ Configure in EXTEND.md: `default_output_dir: illustrations-subdir`
 /baoyu-article-illustrator api-design.md --type infographic --style blueprint
 ```
 
+**Same thing with preset**:
+```bash
+/baoyu-article-illustrator api-design.md --preset tech-explainer
+```
+
 **Personal story**:
 ```bash
-/baoyu-article-illustrator journey.md --type scene --style warm
+/baoyu-article-illustrator journey.md --preset storytelling
 ```
 
 **Tutorial with steps**:
 ```bash
-/baoyu-article-illustrator how-to-deploy.md --type flowchart --density rich
+/baoyu-article-illustrator how-to-deploy.md --preset tutorial --density rich
+```
+
+**Opinion article with poster style**:
+```bash
+/baoyu-article-illustrator opinion.md --preset opinion-piece
+```
+
+**Preset with override**:
+```bash
+/baoyu-article-illustrator article.md --preset tech-explainer --style notion
 ```

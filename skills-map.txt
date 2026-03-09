@@ -18,6 +18,14 @@ https://github.com/MicrosoftDocs/mcp/tree/main/skills/microsoft-docs => microsof
 https://github.com/MicrosoftDocs/mcp/tree/main/skills/microsoft-code-reference => microsoft-code-reference
 
 https://github.com/openclaw/openclaw/tree/main/skills/apple-notes => apple-notes
+https://github.com/openclaw/openclaw/tree/main/skills/apple-reminders => apple-reminders
+
+https://github.com/openclaw/skills/tree/main/skills/pespringer/docker-essentials-1-0-0 => docker-essentials
+https://github.com/openclaw/skills/tree/main/skills/bastos/conventional-commits => conventional-commits
+https://github.com/openclaw/skills/tree/main/skills/artyomx33/first-principles-decomposer => first-principles-decomposer
+https://github.com/openclaw/skills/tree/main/skills/artyomx33/cross-pollination-engine => cross-pollination-engine
+https://github.com/openclaw/skills/tree/main/skills/artyomx33/inversion-strategist => inversion-strategist
+https://github.com/openclaw/skills/tree/main/skills/artyomx33/pre-mortem-analyst => pre-mortem-analyst
 
 https://github.com/kepano/obsidian-skills/tree/main/skills/obsidian-cli => obsidian-cli
 https://github.com/kepano/obsidian-skills/tree/main/skills/obsidian-markdown => obsidian-markdown
@@ -65,6 +73,7 @@ https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/create-prd => 
 https://github.com/bytedance/deer-flow/tree/main/skills/public/consulting-analysis => consulting-analysis
 https://github.com/bytedance/deer-flow/tree/main/skills/public/data-analysis => data-analysis
 https://github.com/bytedance/deer-flow/tree/main/skills/public/deep-research => deep-research
+https://github.com/bytedance/deer-flow/tree/main/skills/public/github-deep-research => github-deep-research
 https://github.com/bytedance/deer-flow/tree/main/skills/public/surprise-me => surprise-me
 
 https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/markitdown => markitdown
@@ -92,4 +101,6 @@ https://github.com/new-silvermoon/awesome-android-agent-skills/tree/main/.github
 https://github.com/alirezarezvani/claude-code-aso-skill/tree/main/.claude/skills/aso => app-store-optimization
 
 
+https://github.com/smnandre/symfony-ux-skills/tree/main/skills/symfony-ux => symfony-ux
 
+https://github.com/microsoft/vscode/tree/main/.github/skills/author-contributions => author-contributions
