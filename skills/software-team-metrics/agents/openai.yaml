@@ -1,0 +1,4 @@
+interface:
+  display_name: "软件团队度量"
+  short_description: "面向工程负责人和团队主管的软件团队度量、诊断与改进手册"
+  default_prompt: "Use $software-team-metrics to design a metrics system to understand and improve my software team."
