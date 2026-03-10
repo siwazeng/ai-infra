@@ -1,12 +1,12 @@
 {
-  "name": "ai-infra-skills",
-  "private": true,
+  "name": "@tourze/ai-infra",
   "version": "0.1.0",
   "description": "本地 skills 管理与多 Agent 软链工具",
   "scripts": {
     "link:skills": "bash ./scripts/link-skills.sh",
     "link:cc": "bash ./scripts/link-skills.sh cc",
     "link:codex": "bash ./scripts/link-skills.sh codex",
-    "link:gemini": "bash ./scripts/link-skills.sh gemini"
+    "link:gemini": "bash ./scripts/link-skills.sh gemini",
+    "sync:memory": "bash ./scripts/sync-agent-memory.sh"
   }
 }
