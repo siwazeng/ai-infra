@@ -7,6 +7,8 @@
 - 技能目录：`./skills`
 - 映射文件：`./skills-map.txt`
 - 同步脚本：`./sync-skills.py`
+- Agent memory：`./AGENTS.md`
+- Claude Code 脚手架：`./.claude/`
 
 ## 常用命令
 
@@ -19,7 +21,22 @@ npm run link:skills
 
 # 3) 仅链接 Gemini CLI
 npm run link:gemini
+
+# 4) 同步仓库级 agent memory 到 Claude/Codex/Gemini
+npm run sync:memory
+
+# 5) 运行当前仓库最小质量门
+npm run validate:repo
 ```
+
+## Agent 协作约定
+
+- `AGENTS.md` 是仓库级 agent memory 的单一事实来源；需要同步到本机的 Claude Code、Codex、Gemini CLI 时，统一执行 `npm run sync:memory`。
+- `.claude/` 提供了从 `tele-backend` 提炼并适配后的轻量 Claude Code 脚手架，包括：
+  - `settings.example.json`：项目级权限与 hook 示例
+  - `hooks/`：通用风险拦截与 prompt 提示
+  - `commands/repo-validate.md`：把仓库验证流程固化为 Claude Code 命令
+- 详细说明见 [`.claude/README.md`](.claude/README.md)。
 
 ## 不同编码 Agent 的 Skill 目录表
 

@@ -7,6 +7,8 @@
     "link:cc": "bash ./scripts/link-skills.sh cc",
     "link:codex": "bash ./scripts/link-skills.sh codex",
     "link:gemini": "bash ./scripts/link-skills.sh gemini",
-    "sync:memory": "bash ./scripts/sync-agent-memory.sh"
+    "sync:memory": "bash ./scripts/sync-agent-memory.sh",
+    "test:claude-hooks": "bash ./scripts/test-claude-hooks.sh",
+    "validate:repo": "bash ./scripts/validate-repo.sh"
   }
 }
