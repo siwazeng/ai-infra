@@ -246,26 +246,28 @@ def main() -> int:
 
     # Get target paths from environment or defaults
     paths = get_default_paths()
-    if os.environ.get('CC_TARGET'):
-        paths['cc'] = Path(os.environ['CC_TARGET'])
-    if os.environ.get('CODEX_TARGET'):
-        paths['codex'] = Path(os.environ['CODEX_TARGET'])
-    if os.environ.get('GEMINI_TARGET'):
-        paths['gemini'] = Path(os.environ['GEMINI_TARGET'])
+
+    # Override with environment variables if set
+    env_mappings = {
+        'CC_TARGET': 'cc',
+        'CODEX_TARGET': 'codex',
+        'GEMINI_TARGET': 'gemini',
+    }
+    for env_var, agent_key in env_mappings.items():
+        if os.environ.get(env_var):
+            paths[agent_key] = Path(os.environ[env_var])
 
     # Link based on agent argument
     agent = args.agent.lower()
 
+    # Define agents and their order
+    agents = ['cc', 'codex', 'gemini']
+
     if agent == 'all':
-        link_one('cc', paths['cc'], source_dir)
-        link_one('codex', paths['codex'], source_dir)
-        link_one('gemini', paths['gemini'], source_dir)
-    elif agent == 'cc':
-        link_one('cc', paths['cc'], source_dir)
-    elif agent == 'codex':
-        link_one('codex', paths['codex'], source_dir)
-    elif agent == 'gemini':
-        link_one('gemini', paths['gemini'], source_dir)
+        for agent_key in agents:
+            link_one(agent_key, paths[agent_key], source_dir)
+    elif agent in agents:
+        link_one(agent, paths[agent], source_dir)
 
     return 0
 

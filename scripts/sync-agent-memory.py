@@ -171,6 +171,8 @@ def main() -> int:
     # Get target paths from environment or defaults
     targets = get_default_targets()
 
+    # Override with environment variables if set
+    # Note: CODEX_MEMORY_TARGET takes precedence over CODEX_HOME
     if os.environ.get('CLAUDE_MEMORY_TARGET'):
         targets['claude'] = Path(os.environ['CLAUDE_MEMORY_TARGET'])
 
@@ -185,16 +187,14 @@ def main() -> int:
     # Sync based on agent argument
     agent = args.agent.lower()
 
+    # Define agents and their order
+    agents = ['claude', 'codex', 'gemini']
+
     if agent == 'all':
-        sync_one('claude', targets['claude'], source_file)
-        sync_one('codex', targets['codex'], source_file)
-        sync_one('gemini', targets['gemini'], source_file)
-    elif agent == 'claude':
-        sync_one('claude', targets['claude'], source_file)
-    elif agent == 'codex':
-        sync_one('codex', targets['codex'], source_file)
-    elif agent == 'gemini':
-        sync_one('gemini', targets['gemini'], source_file)
+        for agent_key in agents:
+            sync_one(agent_key, targets[agent_key], source_file)
+    elif agent in agents:
+        sync_one(agent, targets[agent], source_file)
 
     return 0
 
