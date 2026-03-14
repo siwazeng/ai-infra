@@ -103,7 +103,6 @@ https://github.com/new-silvermoon/awesome-android-agent-skills/tree/main/.github
 https://github.com/new-silvermoon/awesome-android-agent-skills/tree/main/.github/skills/gradle-build-performance => gradle-build-performance
 
 https://github.com/alirezarezvani/claude-skills/tree/main/finance/financial-analyst => financial-analyst
-https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/app-store-optimization => app-store-optimization
 https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/analytics-tracking => analytics-tracking
 https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/campaign-analytics => campaign-analytics
 https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/competitor-alternatives => competitor-alternatives
@@ -267,3 +266,5 @@ https://github.com/Mathews-Tom/praxis-skills/tree/main/skills/youtube-analysis =
 https://github.com/Mathews-Tom/praxis-skills/tree/main/skills/youtube-search => youtube-search
 
 https://github.com/google-labs-code/stitch-skills/tree/main/skills/shadcn-ui => shadcn-ui
+
+https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/app-store-optimization => app-store-optimization
