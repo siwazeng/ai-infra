@@ -286,3 +286,6 @@ https://github.com/compnew2006/Spec-Kit-Antigravity-Skills/tree/main/skills/spec
 https://github.com/compnew2006/Spec-Kit-Antigravity-Skills/tree/main/skills/speckit.taskstoissues => speckit.taskstoissues
 https://github.com/compnew2006/Spec-Kit-Antigravity-Skills/tree/main/skills/speckit.tester => speckit.tester
 https://github.com/compnew2006/Spec-Kit-Antigravity-Skills/tree/main/skills/speckit.validate => speckit.validate
+
+https://github.com/alibaba/arthas/tree/master/skills/cpu-high => arthas-cpu-high
+https://github.com/alibaba/arthas/tree/master/skills/spring-context => arthas-springcontext-issues-resolve
