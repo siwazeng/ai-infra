@@ -40,28 +40,16 @@ https://github.com/kepano/obsidian-skills/tree/main/skills/obsidian-bases => obs
 
 https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns => vercel-composition-patterns
 https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices => vercel-react-best-practices
-https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills => vercel-react-native-skills
 
 https://github.com/callstackincubator/agent-skills/tree/main/skills/react-native-best-practices => react-native-best-practices
 https://github.com/callstackincubator/agent-skills/tree/main/skills/upgrading-react-native => upgrading-react-native
 
-https://github.com/vuejs-ai/skills/tree/main/skills/vue-best-practices => vue-best-practices
-https://github.com/vuejs-ai/skills/tree/main/skills/vue-testing-best-practices => vue-testing-best-practices
-https://github.com/vuejs-ai/skills/tree/main/skills/vue-router-best-practices => vue-router-best-practices
-https://github.com/vuejs-ai/skills/tree/main/skills/vue-pinia-best-practices => vue-pinia-best-practices
-https://github.com/vuejs-ai/skills/tree/main/skills/vue-options-api-best-practices => vue-options-api-best-practices
-https://github.com/vuejs-ai/skills/tree/main/skills/vue-jsx-best-practices => vue-jsx-best-practices
-https://github.com/vuejs-ai/skills/tree/main/skills/vue-debug-guides => vue-debug-guides
-https://github.com/vuejs-ai/skills/tree/main/skills/create-adaptable-composable => create-adaptable-composable
-
 https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-compress-image => baoyu-compress-image
 https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-article-illustrator => baoyu-article-illustrator
 
-https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo => ai-seo
 https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative => ad-creative
 https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy => content-strategy
 https://github.com/coreyhaines31/marketingskills/tree/main/skills/paid-ads => paid-ads
-https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-ideas => marketing-ideas
 https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing-strategy => pricing-strategy
 https://github.com/coreyhaines31/marketingskills/tree/main/skills/popup-cro => popup-cro
 https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology => marketing-psychology
@@ -135,14 +123,12 @@ https://github.com/github/awesome-copilot/tree/main/skills/java-junit => java-ju
 https://github.com/github/awesome-copilot/tree/main/skills/javascript-typescript-jest => javascript-typescript-jest
 https://github.com/github/awesome-copilot/tree/main/skills/meeting-minutes => meeting-minutes
 https://github.com/github/awesome-copilot/tree/main/skills/plantuml-ascii => plantuml-ascii
-https://github.com/github/awesome-copilot/tree/main/skills/postgresql-code-review => postgresql-code-review
-https://github.com/github/awesome-copilot/tree/main/skills/postgresql-optimization => postgresql-optimization
-https://github.com/github/awesome-copilot/tree/main/skills/pytest-coverage => pytest-coverage
 https://github.com/github/awesome-copilot/tree/main/skills/readme-blueprint-generator => readme-blueprint-generator
 https://github.com/github/awesome-copilot/tree/main/skills/sql-code-review => sql-code-review
 https://github.com/github/awesome-copilot/tree/main/skills/sql-optimization => sql-optimization
 https://github.com/github/awesome-copilot/tree/main/skills/update-markdown-file-index => update-markdown-file-index
 https://github.com/github/awesome-copilot/tree/main/skills/webapp-testing => webapp-testing
+https://github.com/github/awesome-copilot/tree/main/skills/create-github-action-workflow-specification => create-github-action-workflow-specification
 
 https://github.com/wshobson/agents/tree/main/plugins/business-analytics/skills/data-storytelling => data-storytelling
 https://github.com/wshobson/agents/tree/main/plugins/database-design/skills/postgresql => postgresql-table-design
@@ -192,6 +178,8 @@ https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/interactio
 https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/react-native-design => react-native-design
 https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/responsive-design => responsive-design
 https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/visual-design-foundations => visual-design-foundations
+https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/skills/github-actions-templates => github-actions-templates
+https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/code-review-excellence => code-review-excellence
 
 https://github.com/zebbern/claude-code-guide/tree/main/skills/active-directory-attacks => active-directory-attacks
 https://github.com/zebbern/claude-code-guide/tree/main/skills/api-fuzzing-bug-bounty => api-fuzzing-bug-bounty
@@ -200,7 +188,6 @@ https://github.com/zebbern/claude-code-guide/tree/main/skills/ethical-hacking-me
 https://github.com/zebbern/claude-code-guide/tree/main/skills/file-path-traversal => file-path-traversal
 https://github.com/zebbern/claude-code-guide/tree/main/skills/linux-privilege-escalation => linux-privilege-escalation
 https://github.com/zebbern/claude-code-guide/tree/main/skills/linux-shell-scripting => linux-shell-scripting
-https://github.com/zebbern/claude-code-guide/tree/main/skills/pentest-checklist => pentest-checklist
 https://github.com/zebbern/claude-code-guide/tree/main/skills/top-web-vulnerabilities => top-web-vulnerabilities
 https://github.com/zebbern/claude-code-guide/tree/main/skills/wireshark-analysis => wireshark-analysis
 
@@ -229,7 +216,6 @@ https://github.com/qiao-925/qiao-skills/tree/main/project/project-guide-assemble
 https://github.com/oimiragieo/agent-studio/tree/main/.claude/skills/java-expert => java-expert
 
 https://github.com/giuseppe-trisciuoglio/developer-kit/tree/main/plugins/developer-kit-java/skills/graalvm-native-image => graalvm-native-image
-https://github.com/giuseppe-trisciuoglio/developer-kit/tree/main/plugins/developer-kit-core/skills/drawio-logical-diagrams => drawio-logical-diagrams
 
 https://github.com/mcollina/skills/tree/main/skills/linting-neostandard-eslint9 => linting-neostandard-eslint9
 https://github.com/mcollina/skills/tree/main/skills/typescript-magician => typescript-magician
@@ -308,3 +294,5 @@ https://github.com/skyvanguard/infra-ops/tree/master/skills/log-analyzer => log-
 https://github.com/skyvanguard/infra-ops/tree/master/skills/performance-optimizer => performance-optimizer
 https://github.com/skyvanguard/infra-ops/tree/master/skills/service-monitor => service-monitor
 https://github.com/skyvanguard/infra-ops/tree/master/skills/system-diagnostics => system-diagnostics
+
+https://github.com/Jeffallan/claude-skills/tree/main/skills/vue-expert-js => vue-expert-js
