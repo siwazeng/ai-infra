@@ -118,7 +118,7 @@ npm run validate:repo:py
 
 以下清单按仓库中实际存在的公共 `skills/*/SKILL.md` 整理，不包含 `.system` 内置 skill。名称可直接跳转到对应说明文件。
 
-### 公共 Skills（228）
+### 公共 Skills（229）
 
 | 名称 | 作用简介 |
 |------|----------|
@@ -293,6 +293,7 @@ npm run validate:repo:py
 | [similarity-search-patterns](skills/similarity-search-patterns/SKILL.md) | 构建向量数据库语义检索与近邻搜索方案。 |
 | [site-architecture](skills/site-architecture/SKILL.md) | 规划网站结构、导航、URL 与内链体系。 |
 | [six-thinking-hats](skills/six-thinking-hats/SKILL.md) | Apply Edward de Bono's Six Thinking Hats methodology to software testing for...。 |
+| [skill-creator](skills/skill-creator/SKILL.md) | Create new skills, modify and improve existing skills, and measure skill perf...。 |
 | [skills-prune-and-sync-readme](skills/skills-prune-and-sync-readme/SKILL.md) | 遍历当前仓库的 `skills/` 目录，依据证据定位低质量、重复或触发冲突的 skill，按明确名单删除目标目录，并重建 `README.md` 中的...。 |
 | [slash-command-bridge](skills/slash-command-bridge/SKILL.md) | 在不原生支持 Claude Code slash command 的环境中桥接并执行命令。用户输入以 `/` 开头，且当前运行时不会自动解析 `.clau...。 |
 | [software-team-metrics](skills/software-team-metrics/SKILL.md) | 软件团队度量与改进技能，覆盖指标设计、试点引入、团队诊断、角色画像、招聘参照、辅导反馈与绩效对话。用户提到“程序员度量”“工程团队度量”“研发效能分析”“...。 |

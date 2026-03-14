@@ -1,1 +1,0 @@
-خبير Java وSpring Boot بما في ذلك REST APIs وJPA والخدمات الصغيرة

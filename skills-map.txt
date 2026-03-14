@@ -220,8 +220,17 @@ https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/ski
 https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/01-devops-basics/docker-compose-creator => docker-compose-creator
 https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/01-devops-basics/dockerfile-generator => dockerfile-generator
 
-https://github.com/NeverSight/learn-skills.dev/tree/main/data/skills-md/oimiragieo/agent-studio/java-expert => java-expert
 https://github.com/NeverSight/learn-skills.dev/tree/main/data/skills-md/pluginagentmarketplace/custom-plugin-qa/test-strategy => test-strategy
+https://github.com/NeverSight/learn-skills.dev/tree/main/data/skills-md/nikhilbhansali/enterprise-proposal => enterprise-proposal
+
+https://github.com/qiao-925/qiao-skills/tree/main/global/single-responsibility => single-responsibility
+https://github.com/qiao-925/qiao-skills/tree/main/global/code-complexity-control/core-first-simplicity => core-first-simplicity
+https://github.com/qiao-925/qiao-skills/tree/main/global/code-complexity-control/file-header-comments => file-header-comments
+https://github.com/qiao-925/qiao-skills/tree/main/global/code-complexity-control/file-size-limit => file-size-limit
+https://github.com/qiao-925/qiao-skills/tree/main/global/agent-collaboration/critical-thinking-guidance => critical-thinking-guidance
+https://github.com/qiao-925/qiao-skills/tree/main/project/project-guide-assemble/whetstone => whetstone
+
+https://github.com/oimiragieo/agent-studio/tree/main/.claude/skills/java-expert => java-expert
 
 https://github.com/giuseppe-trisciuoglio/developer-kit/tree/main/plugins/developer-kit-java/skills/graalvm-native-image => graalvm-native-image
 https://github.com/giuseppe-trisciuoglio/developer-kit/tree/main/plugins/developer-kit-core/skills/drawio-logical-diagrams => drawio-logical-diagrams
@@ -256,3 +265,5 @@ https://github.com/Mathews-Tom/praxis-skills/tree/main/skills/rag-auditor => rag
 https://github.com/Mathews-Tom/praxis-skills/tree/main/skills/task-decomposer => task-decomposer
 https://github.com/Mathews-Tom/praxis-skills/tree/main/skills/youtube-analysis => youtube-analysis
 https://github.com/Mathews-Tom/praxis-skills/tree/main/skills/youtube-search => youtube-search
+
+https://github.com/google-labs-code/stitch-skills/tree/main/skills/shadcn-ui => shadcn-ui

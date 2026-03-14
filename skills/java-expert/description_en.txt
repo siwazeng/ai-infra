@@ -1,1 +1,0 @@
-Java and Spring Boot expert including REST APIs, JPA, and microservices
